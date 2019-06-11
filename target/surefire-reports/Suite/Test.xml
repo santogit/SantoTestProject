@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-R5N14JA6" failures="1" tests="3" name="testCases.TestCase1" time="28.164" errors="0" timestamp="11 Jun 2019 18:13:15 GMT">
+  <testcase classname="testCases.TestCase1" name="testCase001" time="9.833"/>
+  <testcase classname="testCases.TestCase1" name="testCase002" time="9.41">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at testCases.TestCase1.testCase002(TestCase1.java:32)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="testCases.TestCase2" name="testCase003" time="8.38"/>
+</testsuite>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-11T17:57:55Z" name="Suite" finished-at="2019-06-11T17:58:21Z" duration-ms="25395">
+    <groups>
+    </groups>
+    <test started-at="2019-06-11T17:57:55Z" name="Test" finished-at="2019-06-11T17:58:21Z" duration-ms="25395">
+      <class name="testCases.TestCase1">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testCases.TestCase1@70be0a2b]" started-at="2019-06-11T17:57:55Z" name="startReport" finished-at="2019-06-11T17:57:55Z" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="testCase001()[pri:0, instance:testCases.TestCase1@70be0a2b]" started-at="2019-06-11T17:57:55Z" name="testCase001" finished-at="2019-06-11T17:58:04Z" duration-ms="8946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase001 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TestCase1@70be0a2b]" started-at="2019-06-11T17:58:04Z" name="getResult" finished-at="2019-06-11T17:58:04Z" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase001 status=SUCCESS method=TestCase1.testCase001()[pri:0, instance:testCases.TestCase1@70be0a2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCase002()[pri:0, instance:testCases.TestCase1@70be0a2b]" started-at="2019-06-11T17:58:04Z" name="testCase002" finished-at="2019-06-11T17:58:12Z" duration-ms="7218" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at testCases.TestCase1.testCase002(TestCase1.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase002 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TestCase1@70be0a2b]" started-at="2019-06-11T17:58:12Z" name="getResult" finished-at="2019-06-11T17:58:12Z" duration-ms="540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase002 status=FAILURE method=TestCase1.testCase002()[pri:0, instance:testCases.TestCase1@70be0a2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCase1@70be0a2b]" started-at="2019-06-11T17:58:21Z" name="tearDown" finished-at="2019-06-11T17:58:22Z" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestCase1 -->
+      <class name="testCases.TestCase2">
+        <test-method signature="testCase003()[pri:0, instance:testCases.TestCase2@2133814f]" started-at="2019-06-11T17:58:12Z" name="testCase003" finished-at="2019-06-11T17:58:21Z" duration-ms="8629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase003 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TestCase2@2133814f]" started-at="2019-06-11T17:58:21Z" name="getResult" finished-at="2019-06-11T17:58:21Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase003 status=SUCCESS method=TestCase2.testCase003()[pri:0, instance:testCases.TestCase2@2133814f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testCases.TestCase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

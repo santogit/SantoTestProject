@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.255 sec <<< FAILURE! - in TestSuite
+testCase002(testCases.TestCase1)  Time elapsed: 9.42 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at testCases.TestCase1.testCase002(TestCase1.java:32)
+
